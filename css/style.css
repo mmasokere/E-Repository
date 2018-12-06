@@ -2,3 +2,35 @@
     font-size: 15px;
     text-transform: uppercase;
 }
+
+main{
+    display: flex !important;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+.inner h1{
+    margin: 10px 0px 120px 0px;
+}
+
+.inner .btn-lg{
+    border-radius: 0px !important;
+}
+
+.inner .btn-lg:hover,
+.inner .btn-lg:focus,
+.inner .input-group:focus,
+.inner .form-control:focus{
+    box-shadow: none;
+}
+
+.site-footer{
+    color: #ffffff;
+}
